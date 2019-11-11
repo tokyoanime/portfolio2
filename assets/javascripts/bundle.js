@@ -157,6 +157,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return MainContent; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _content_intro__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../content/intro */ "./frontend/content/intro.jsx");
+/* harmony import */ var _content_about__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../content/about */ "./frontend/content/about.jsx");
+/* harmony import */ var _content_projects__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../content/projects */ "./frontend/content/projects.jsx");
+/* harmony import */ var _content_experience__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../content/experience */ "./frontend/content/experience.jsx");
+/* harmony import */ var _content_contact__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../content/contact */ "./frontend/content/contact.jsx");
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -177,6 +182,11 @@ function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || func
 
 
 
+
+
+
+
+
 var MainContent =
 /*#__PURE__*/
 function (_React$Component) {
@@ -193,7 +203,7 @@ function (_React$Component) {
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "main-content-container"
-      }, "This is Main content.");
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_content_intro__WEBPACK_IMPORTED_MODULE_1__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_content_about__WEBPACK_IMPORTED_MODULE_2__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_content_projects__WEBPACK_IMPORTED_MODULE_3__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_content_experience__WEBPACK_IMPORTED_MODULE_4__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_content_contact__WEBPACK_IMPORTED_MODULE_5__["default"], null));
     }
   }]);
 
@@ -383,7 +393,7 @@ function (_React$Component) {
         className: "top-nav-links"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ol", {
         className: "top-nav-links-list"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "About"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Experience"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Projects"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Contact")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "About"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Projects"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Experience"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Contact")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "top-nav-resume"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "/assets/pdf/lwin_ye_resume.pdf",
@@ -394,7 +404,7 @@ function (_React$Component) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
         className: "material-icons",
         id: "sort"
-      }, "dehaze")));
+      }, "menu")));
     }
   }]);
 
@@ -402,6 +412,268 @@ function (_React$Component) {
 }(react__WEBPACK_IMPORTED_MODULE_0___default.a.Component);
 
 
+
+/***/ }),
+
+/***/ "./frontend/content/about.jsx":
+/*!************************************!*\
+  !*** ./frontend/content/about.jsx ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+
+var About = function About() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+    className: "about"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "heading"
+  }, "About Me"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "about-container"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "about-description"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Hi there! I'm Lwin Ye, a sales account manager turned software engineer based in San Francisco Bay Area. I like building awesome websites and applications.  I develop exceptional websites and web apps that provide pixel-perfect user interfaces with efficient and modern backend."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Here are a few technologies I'm proficient in:")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    className: "about-skills"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "JavaScript (ES6+)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "HTML5 & CSS3"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "React"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Redux"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Ruby"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Ruby on Rails"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Node.js"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Express"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "PostgreSQL"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "MongoDB")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "about-pic"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "/assets/images/profile_pic_top_crop.jpg",
+    alt: ""
+  }))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (About);
+
+/***/ }),
+
+/***/ "./frontend/content/contact.jsx":
+/*!**************************************!*\
+  !*** ./frontend/content/contact.jsx ***!
+  \**************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+
+var Contact = function Contact() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+    className: "contact"
+  }, "Contact Me");
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Contact);
+
+/***/ }),
+
+/***/ "./frontend/content/experience.jsx":
+/*!*****************************************!*\
+  !*** ./frontend/content/experience.jsx ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+
+var Experience = function Experience() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+    className: "experience"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "heading"
+  }, "Where I've Worked"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "experience-container"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "companies"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    className: "companies-list"
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "job-container"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "job0"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "job-title"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Sales Account Manager"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    "class": "material-icons"
+  }, "more_vert")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "http://www.antec.com/",
+    target: "_blank",
+    rel: "noopener noreferrer"
+  }, "Antec, Inc."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "job-detail"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Mar 2017 - Apr 2019")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "job-description"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    className: "job-description-list"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Increased sales by approximately 10% by utilizing sales and marketing promotion available through our distributors"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Maintained effective communication between internal supply chain management and distributors to ensure that the products were delivered on time and accurately"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Patiently taught my colleagues all my previous responsibilities when I was promoted from accounts receivable/accounts payable position to sales account manager position")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "job1"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "job-title"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Assistant Manager"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    "class": "material-icons"
+  }, "more_vert")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Discount Bay/Surplus Town")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "job-detail"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Dec 2012 - Mar 2017")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "job-description"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    className: "job-description-list"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Managed 10 employees across multiple departments, including sales, customer service, IT and marketing"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Interviewed, hired, trained and managed new employees"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Doubled productivity by utilizing Excel to prepopulate product data and importing to POS system instead of manually entering them"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Utilized multiple sales channels to significantly increase online sales")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "job2"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "job-title"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Sales Associate"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    "class": "material-icons"
+  }, "more_vert")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "https://www.frys.com/",
+    target: "_blank",
+    rel: "noopener noreferrer"
+  }, "Fry's Electronics"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "job-detail"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Oct 2006 - Oct 2008")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "job-description"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    className: "job-description-list"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Assisted customers with finding the right product solution that matches their need"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Promoted other related products, such as, extended warranties, Fry's Card, and in-home installations"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Worked with other co-workers to ensure quality customer service"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Met weekly sales quota despite of slowing economy"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Managed and maintained an assigned product display and inventory"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Train new employees with Fry\u2019s POS system and schematic of product they are in charge of")))))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Experience);
+
+/***/ }),
+
+/***/ "./frontend/content/intro.jsx":
+/*!************************************!*\
+  !*** ./frontend/content/intro.jsx ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+
+var Intro = function Intro() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+    className: "intro"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "intro-heading"
+  }, "Hi, my name is"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "intro-name"
+  }, "Lwin Ye"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "intro-phrase"
+  }, "Software Engineer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "intro-short-description"
+  }, "I am a software engineer based in San Francisco Bay Area. I specialize in building exceptional, high-quality websites and applications."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "intro-contact"
+  }, "Get In Touch"));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Intro);
+
+/***/ }),
+
+/***/ "./frontend/content/projects.jsx":
+/*!***************************************!*\
+  !*** ./frontend/content/projects.jsx ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+
+var Projects = function Projects() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+    className: "projects"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "heading"
+  }, "Some Things I've Built"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "projects-container"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "project-first"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "project-header"
+  }, "Featured Project"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "project-title"
+  }, "Yeet"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "project-pic"
+  }, "Project Pic Here"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "project-description"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Yeet is a full-stack web application similar to Yelp.com. Yeet allows user to search for ramen and boba milk tea places in San Francisco Bay Area.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "project-technologies"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    className: "project-technologies-list"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Ruby on Rails"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "PostgreSQL"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "React/Redux"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "JavaScript"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Ajax"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "HTML & CSS"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "project-links"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "https://github.com/tokyoanime/yeet"
+  }, "Github"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "https://yeet-fullstack.herokuapp.com/"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    "class": "material-icons"
+  }, "exit_to_app")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "project-second"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "project-header"
+  }, "Featured Project"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "project-title"
+  }, "Stack Bricks"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "project-pic"
+  }, "Project Pic Here"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "project-description"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Stack Bricks is a JavaScript game inspired by the classic game Tetris.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "project-technologies"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    className: "project-technologies-list"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "React"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "HTML5 Canvas"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "CSS3"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "JavaScript"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "project-links"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "https://github.com/tokyoanime/stack_bricks"
+  }, "Github"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "https://tokyoanime.github.io/stack_bricks/"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    "class": "material-icons"
+  }, "exit_to_app")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "project-third"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "project-header"
+  }, "Featured Project"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "project-title"
+  }, "WiRR (Wikipedia Reliability Rater)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "project-pic"
+  }, "Project Pic Here"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "project-description"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "WiRR is an application to help determine the reliability of a given Wikipedia article. The reliability of the article is determined by our custom made reliability index. The reliability index is determined mainly by citations.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "project-technologies"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    className: "project-technologies-list"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "React/Redux"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "HTML5 & CSS3"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "JavaScript"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "MongoDB"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Express"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Node.js"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "project-links"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "https://github.com/michaeltorres1/WiRR"
+  }, "Github"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "http://www.wikipediarr.com/"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    "class": "material-icons"
+  }, "exit_to_app"))))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Projects);
 
 /***/ }),
 

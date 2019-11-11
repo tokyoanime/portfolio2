@@ -13,10 +13,10 @@ export default class TopNav extends React.Component {
               About
             </li>
             <li>
-              Experience
+              Projects
             </li>
             <li>
-              Projects
+              Experience
             </li>
             <li>
               Contact
@@ -31,7 +31,7 @@ export default class TopNav extends React.Component {
           </div>
         </div>
         <div className="top-nav-hamburger">
-          <i className="material-icons" id="sort">dehaze</i>
+          <i className="material-icons" id="sort">menu</i>
         </div>
       </div>
     )
