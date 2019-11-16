@@ -8,10 +8,10 @@ class Splash extends React.Component {
   render() {
     return(
       <div className="index-container">
-        <EmailBar />
+        <SocialBar />
         <TopNav />
         <MainContent />
-        <SocialBar />
+        <EmailBar />
       </div>
     )
   }

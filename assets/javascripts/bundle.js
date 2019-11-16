@@ -134,7 +134,12 @@ function (_React$Component) {
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "email-bar-container"
-      }, "This is Email Bar.");
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "mailto:lwin_ye@yahoo.com",
+        className: "email-link-vertical"
+      }, "lwin_ye@yahoo.com"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "sidebar-vertical-break"
+      }));
     }
   }]);
 
@@ -226,6 +231,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return SocialBar; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _icons_icon_github__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../icons/icon_github */ "./frontend/icons/icon_github.jsx");
+/* harmony import */ var _icons_icon_linkedin__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../icons/icon_linkedin */ "./frontend/icons/icon_linkedin.jsx");
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -246,6 +253,8 @@ function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || func
 
 
 
+
+
 var SocialBar =
 /*#__PURE__*/
 function (_React$Component) {
@@ -262,7 +271,9 @@ function (_React$Component) {
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "social-bar-container"
-      }, "This is Social Bar.");
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_icons_icon_github__WEBPACK_IMPORTED_MODULE_1__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_icons_icon_linkedin__WEBPACK_IMPORTED_MODULE_2__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "sidebar-vertical-break"
+      }));
     }
   }]);
 
@@ -328,7 +339,7 @@ function (_React$Component) {
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "index-container"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_email_bar__WEBPACK_IMPORTED_MODULE_2__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_top_nav__WEBPACK_IMPORTED_MODULE_4__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_main_content__WEBPACK_IMPORTED_MODULE_1__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_social_bar__WEBPACK_IMPORTED_MODULE_3__["default"], null));
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_social_bar__WEBPACK_IMPORTED_MODULE_3__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_top_nav__WEBPACK_IMPORTED_MODULE_4__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_main_content__WEBPACK_IMPORTED_MODULE_1__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_email_bar__WEBPACK_IMPORTED_MODULE_2__["default"], null));
     }
   }]);
 
@@ -393,12 +404,12 @@ function (_React$Component) {
         className: "top-nav-links"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ol", {
         className: "top-nav-links-list"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "About"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Projects"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Experience"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Contact")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "top-nav-resume"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "About"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Projects"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Experience"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Contact")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "/assets/pdf/lwin_ye_resume.pdf",
         target: "_blank",
         rel: "noopener noreferrer"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "top-nav-resume"
       }, "Resume"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "top-nav-hamburger"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
@@ -505,7 +516,7 @@ var Experience = function Experience() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "job-title"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Sales Account Manager"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    "class": "material-icons"
+    className: "material-icons"
   }, "more_vert")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "http://www.antec.com/",
     target: "_blank",
@@ -521,7 +532,7 @@ var Experience = function Experience() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "job-title"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Assistant Manager"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    "class": "material-icons"
+    className: "material-icons"
   }, "more_vert")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Discount Bay/Surplus Town")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "job-detail"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Dec 2012 - Mar 2017")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -533,7 +544,7 @@ var Experience = function Experience() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "job-title"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Sales Associate"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    "class": "material-icons"
+    className: "material-icons"
   }, "more_vert")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "https://www.frys.com/",
     target: "_blank",
@@ -625,7 +636,7 @@ var Projects = function Projects() {
   }, "Github"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "https://yeet-fullstack.herokuapp.com/"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    "class": "material-icons"
+    className: "material-icons"
   }, "exit_to_app")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "project-second"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -647,7 +658,7 @@ var Projects = function Projects() {
   }, "Github"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "https://tokyoanime.github.io/stack_bricks/"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    "class": "material-icons"
+    className: "material-icons"
   }, "exit_to_app")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "project-third"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -669,11 +680,71 @@ var Projects = function Projects() {
   }, "Github"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "http://www.wikipediarr.com/"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    "class": "material-icons"
+    className: "material-icons"
   }, "exit_to_app"))))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Projects);
+
+/***/ }),
+
+/***/ "./frontend/icons/icon_github.jsx":
+/*!****************************************!*\
+  !*** ./frontend/icons/icon_github.jsx ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+
+var IconGithub = function IconGithub() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "https://github.com/tokyoanime",
+    target: "_blank"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    viewBox: "0 0 24 24"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
+    fill: "#05386B",
+    d: "M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-4.466 19.59c-.405.078-.534-.171-.534-.384v-2.195c0-.747-.262-1.233-.55-1.481 1.782-.198 3.654-.875 3.654-3.947 0-.874-.312-1.588-.823-2.147.082-.202.356-1.016-.079-2.117 0 0-.671-.215-2.198.82-.64-.18-1.324-.267-2.004-.271-.68.003-1.364.091-2.003.269-1.528-1.035-2.2-.82-2.2-.82-.434 1.102-.16 1.915-.077 2.118-.512.56-.824 1.273-.824 2.147 0 3.064 1.867 3.751 3.645 3.954-.229.2-.436.552-.508 1.07-.457.204-1.614.557-2.328-.666 0 0-.423-.768-1.227-.825 0 0-.78-.01-.055.487 0 0 .525.246.889 1.17 0 0 .463 1.428 2.688.944v1.489c0 .211-.129.459-.528.385-3.18-1.057-5.472-4.056-5.472-7.59 0-4.419 3.582-8 8-8s8 3.581 8 8c0 3.533-2.289 6.531-5.466 7.59z"
+  })));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (IconGithub);
+
+/***/ }),
+
+/***/ "./frontend/icons/icon_linkedin.jsx":
+/*!******************************************!*\
+  !*** ./frontend/icons/icon_linkedin.jsx ***!
+  \******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+
+var IconLinkedIn = function IconLinkedIn() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "https://www.linkedin.com/in/lwin-ye-797a2558/",
+    target: "_blank"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    viewBox: "0 0 24 24"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
+    fill: "#05386B",
+    d: "M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"
+  })));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (IconLinkedIn);
 
 /***/ }),
 

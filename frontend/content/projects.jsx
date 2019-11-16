@@ -35,7 +35,7 @@ const Projects = () => {
           <div className="project-links">
             <a href="https://github.com/tokyoanime/yeet">Github</a>
             <a href="https://yeet-fullstack.herokuapp.com/">
-              <i class="material-icons">exit_to_app</i>
+              <i className="material-icons">exit_to_app</i>
             </a>
           </div>
         </div>
@@ -65,7 +65,7 @@ const Projects = () => {
           <div className="project-links">
             <a href="https://github.com/tokyoanime/stack_bricks">Github</a>
             <a href="https://tokyoanime.github.io/stack_bricks/">
-              <i class="material-icons">exit_to_app</i>
+              <i className="material-icons">exit_to_app</i>
             </a>
           </div>
         </div>
@@ -97,7 +97,7 @@ const Projects = () => {
           <div className="project-links">
             <a href="https://github.com/michaeltorres1/WiRR">Github</a>
             <a href="http://www.wikipediarr.com/">
-              <i class="material-icons">exit_to_app</i>
+              <i className="material-icons">exit_to_app</i>
             </a>
           </div>
         </div>

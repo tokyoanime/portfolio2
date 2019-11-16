@@ -1,0 +1,14 @@
+.social-bar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40px;
+  position: fixed;
+  bottom: 0px;
+  left: 40px;
+}
+
+.social-bar-container svg {
+  width: 22px;
+  height: 22px;
+}

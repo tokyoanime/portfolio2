@@ -1,0 +1,13 @@
+body {
+  /* background-color: #659DBD; */
+  background-color: #5CDB95;
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  color: #05386B;
+}
+
+a, a:visited {
+  text-decoration: none;
+  cursor: pointer;
+  color: #05386B;
+}

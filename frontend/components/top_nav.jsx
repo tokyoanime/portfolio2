@@ -22,13 +22,14 @@ export default class TopNav extends React.Component {
               Contact
             </li>
           </ol>
-          <div className="top-nav-resume">
             <a 
               href="/assets/pdf/lwin_ye_resume.pdf"
               target="_blank"
-              rel="noopener noreferrer">Resume
+              rel="noopener noreferrer">
+            <div className="top-nav-resume">
+              Resume
+            </div>
             </a>
-          </div>
         </div>
         <div className="top-nav-hamburger">
           <i className="material-icons" id="sort">menu</i>

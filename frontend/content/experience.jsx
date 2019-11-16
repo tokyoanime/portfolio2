@@ -16,7 +16,7 @@ const Experience = () => {
           <div className="job0">
             <div className="job-title">
               <span>Sales Account Manager</span>
-              <span><i class="material-icons">more_vert</i></span>
+              <span><i className="material-icons">more_vert</i></span>
               <span>
                 <a href="http://www.antec.com/"
                   target="_blank"
@@ -38,7 +38,7 @@ const Experience = () => {
           <div className="job1">
             <div className="job-title">
               <span>Assistant Manager</span>
-              <span><i class="material-icons">more_vert</i></span>
+              <span><i className="material-icons">more_vert</i></span>
               <span>Discount Bay/Surplus Town</span>
             </div>
             <div className="job-detail">
@@ -56,7 +56,7 @@ const Experience = () => {
           <div className="job2">
             <div className="job-title">
               <span>Sales Associate</span>
-              <span><i class="material-icons">more_vert</i></span>
+              <span><i className="material-icons">more_vert</i></span>
               <span>
                 <a href="https://www.frys.com/"
                   target="_blank"
