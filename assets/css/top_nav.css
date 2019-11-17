@@ -2,8 +2,21 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
   width: 100%;
-  padding: 0px 40px;
+  height: 100px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0px 50px;
+  margin: 0px auto;
+}
+
+.top-nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 
 /* Custom List Numbers by David McFarland */
@@ -28,7 +41,7 @@
 }
 
 .top-nav-links-list li::before {
-  content: counter(step-counter);
+  content: "0" counter(step-counter);
   margin-right: 5px;
   font-size: 80%;
   background-color: #05386B;
@@ -44,16 +57,4 @@
 
 .top-nav-resume {
   padding: 12px 16px;
-  border: 1px solid #05386B;
-  border-radius: 5px;
-  background-color: #05386B;
-  color: #EDF5E1;
-  font-weight: bold;
-  transition-duration: .4s;
-}
-
-.top-nav-resume:hover {
-  /* background-color: #379683; */
-  background-color: #8EE4AF;
-  color: #05386B;
 }

@@ -135,9 +135,9 @@ function (_React$Component) {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "email-bar-container"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "mailto:lwin_ye@yahoo.com",
+        href: "mailto:lwin.ye.contact@gmail.com",
         className: "email-link-vertical"
-      }, "lwin_ye@yahoo.com"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, "lwin.ye.contact@gmail.com"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "sidebar-vertical-break"
       }));
     }
@@ -339,7 +339,7 @@ function (_React$Component) {
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "index-container"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_social_bar__WEBPACK_IMPORTED_MODULE_3__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_top_nav__WEBPACK_IMPORTED_MODULE_4__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_main_content__WEBPACK_IMPORTED_MODULE_1__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_email_bar__WEBPACK_IMPORTED_MODULE_2__["default"], null));
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_top_nav__WEBPACK_IMPORTED_MODULE_4__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_social_bar__WEBPACK_IMPORTED_MODULE_3__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_email_bar__WEBPACK_IMPORTED_MODULE_2__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_main_content__WEBPACK_IMPORTED_MODULE_1__["default"], null));
     }
   }]);
 
@@ -398,24 +398,34 @@ function (_React$Component) {
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "top-nav-container"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
+        className: "top-nav-bar"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "top-nav-logo"
       }, "Logo Here"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "top-nav-links"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ol", {
         className: "top-nav-links-list"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "About"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Projects"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Experience"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Contact")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "/#about"
+      }, "About")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "/#projects"
+      }, "Projects")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "/#experience"
+      }, "Experience")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "/#contact"
+      }, "Contact"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "/assets/pdf/lwin_ye_resume.pdf",
         target: "_blank",
         rel: "noopener noreferrer"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "top-nav-resume"
+        className: "top-nav-resume btn"
       }, "Resume"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "top-nav-hamburger"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
         className: "material-icons",
         id: "sort"
-      }, "menu")));
+      }, "menu"))));
     }
   }]);
 
@@ -441,21 +451,19 @@ __webpack_require__.r(__webpack_exports__);
 
 var About = function About() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
-    className: "about"
+    className: "about-container",
+    id: "about"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "heading"
   }, "About Me"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "about-container"
+    className: "about-content-container"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "about-description"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Hi there! I'm Lwin Ye, a sales account manager turned software engineer based in San Francisco Bay Area. I like building awesome websites and applications.  I develop exceptional websites and web apps that provide pixel-perfect user interfaces with efficient and modern backend."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Here are a few technologies I'm proficient in:")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Hi there! I'm Lwin Ye, a sales account manager turned software engineer based in San Francisco Bay Area. I like building awesome websites and applications. I develop exceptional websites and web apps that provide pixel-perfect user interfaces with efficient and modern backend."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Here are a few technologies I'm proficient in:")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
     className: "about-skills"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "JavaScript (ES6+)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "HTML5 & CSS3"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "React"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Redux"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Ruby"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Ruby on Rails"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Node.js"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Express"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "PostgreSQL"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "MongoDB")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "about-pic"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "/assets/images/profile_pic_top_crop.jpg",
-    alt: ""
-  }))));
+  })));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (About);
@@ -577,18 +585,20 @@ __webpack_require__.r(__webpack_exports__);
 
 var Intro = function Intro() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
-    className: "intro"
+    className: "intro-container"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "intro-heading"
   }, "Hi, my name is"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "intro-name"
-  }, "Lwin Ye"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, "Lwin Ye."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "intro-phrase"
-  }, "Software Engineer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "intro-short-description"
-  }, "I am a software engineer based in San Francisco Bay Area. I specialize in building exceptional, high-quality websites and applications."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "intro-contact"
-  }, "Get In Touch"));
+  }, "I am a software engineer based in San Francisco Bay Area. I specialize in building exceptional, high-quality websites and applications."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "mailto:lwin.ye.contact@gmail.com"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "intro-contact btn"
+  }, "Get In Touch")));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Intro);

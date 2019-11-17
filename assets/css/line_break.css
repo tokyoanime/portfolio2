@@ -1,6 +1,7 @@
 .sidebar-vertical-break {
-  width: 1px;
+  width: 2px;
   height: 90px;
+  border-radius: 10px 10px 0px 0px;
   background-color: #05386B;
   margin-top: 30px;
 }

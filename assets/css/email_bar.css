@@ -6,8 +6,10 @@
   position: fixed;
   bottom: 0px;
   right: 40px;
+  margin: 0px auto;
 }
 
 .email-link-vertical {
   writing-mode: vertical-rl;
+  font-weight: 700;
 }
