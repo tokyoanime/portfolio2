@@ -21,3 +21,7 @@
   padding: 20px 28px;
   margin: 50px 0px 0px;
 }
+
+.intro-short-description {
+  max-width: 500px;
+}

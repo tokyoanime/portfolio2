@@ -2,11 +2,11 @@ import React from 'react';
 
 const Experience = () => {
   return (
-    <section className="experience">
+    <section className="experience-container content-container" id="experience">
       <div className="heading">
         Where I've Worked
       </div>
-      <div className="experience-container">
+      <div className="experience-content-container">
         <div className="companies">
           <ul className="companies-list">
 

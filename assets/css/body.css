@@ -9,6 +9,22 @@ body {
   width: 100%;
   min-height: 100%;
   overflow-x: hidden;
+  counter-reset: section-counter;
+}
+
+p {
+  max-width: 100%;
+  margin: 0px 0px 15px;
+}
+
+.content-container {
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0px auto;
+  padding: 150px 0px;
 }
 
 a, a:visited {
@@ -43,11 +59,6 @@ a:hover:before {
   transform: scaleX(1);
 }
 
-p {
-  width: 500px;
-  padding: 0px 0px 15px;
-}
-
 .btn {
   border: 1px solid #05386B;
   border-radius: 5px;
@@ -68,11 +79,12 @@ p {
   text-decoration-line: underline;
   display: flex;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .heading::before {
-  counter-increment: head-counter;
-  content: "0" counter(head-counter);
+  counter-increment: section-counter;
+  content: "0" counter(section-counter);
   margin-right: 5px;
   font-size: 80%;
   background-color: #05386B;

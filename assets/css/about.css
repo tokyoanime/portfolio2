@@ -1,4 +1,25 @@
-.about-container {
-  max-width: 1000px;
-  margin: 0px auto;
+#about {
+  padding: 0px;
+}
+
+.about-content-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-description {
+  padding-right: 15px;
+  max-width: 500px;
+  min-width: 375px;
+}
+
+.about-pic {
+  max-width: 300px;
+  min-width: 200px;
+  height: 100%;
+}
+
+.about-pic > img {
+  width: 100%;
 }

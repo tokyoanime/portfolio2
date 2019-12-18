@@ -416,6 +416,7 @@ function (_React$Component) {
         href: "/#contact"
       }, "Contact"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "/assets/pdf/lwin_ye_resume.pdf",
+        className: "btn-link",
         target: "_blank",
         rel: "noopener noreferrer"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -451,7 +452,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var About = function About() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
-    className: "about-container",
+    className: "content-container",
     id: "about"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "heading"
@@ -459,11 +460,14 @@ var About = function About() {
     className: "about-content-container"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "about-description"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Hi there! I'm Lwin Ye, a sales account manager turned software engineer based in San Francisco Bay Area. I like building awesome websites and applications. I develop exceptional websites and web apps that provide pixel-perfect user interfaces with efficient and modern backend."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Here are a few technologies I'm proficient in:")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Hi there! I'm Lwin Ye, a sales account manager turned software engineer based in San Francisco Bay Area. I like building awesome websites and applications. I develop exceptional websites and web apps that provide pixel-perfect user interfaces with efficient and modern backend."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Here are few technologies I'm proficient in:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
     className: "about-skills"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "JavaScript (ES6+)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "HTML5 & CSS3"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "React"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Redux"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Ruby"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Ruby on Rails"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Node.js"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Express"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "PostgreSQL"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "MongoDB")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "JavaScript (ES6+)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "HTML5 & CSS3"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "React"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Redux"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Ruby"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Ruby on Rails"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Node.js"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Express"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "PostgreSQL"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "MongoDB"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "about-pic"
-  })));
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "/assets/images/profile_pic_top_crop.jpg",
+    alt: ""
+  }))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (About);
@@ -508,11 +512,12 @@ __webpack_require__.r(__webpack_exports__);
 
 var Experience = function Experience() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
-    className: "experience"
+    className: "experience-container content-container",
+    id: "experience"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "heading"
   }, "Where I've Worked"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "experience-container"
+    className: "experience-content-container"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "companies"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
@@ -620,22 +625,27 @@ __webpack_require__.r(__webpack_exports__);
 
 var Projects = function Projects() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
-    className: "projects"
+    className: "projects-container content-container",
+    id: "projects"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "heading"
   }, "Some Things I've Built"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "projects-container"
+    className: "projects-content-container"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "project-first"
+    className: "project-first",
+    id: "single-project"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "project-pic"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "/assets/images/yeet.jpg",
+    alt: ""
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "project-description right-description"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "project-header"
   }, "Featured Project"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "project-title"
-  }, "Yeet"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "project-pic"
-  }, "Project Pic Here"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "project-description"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Yeet is a full-stack web application similar to Yelp.com. Yeet allows user to search for ramen and boba milk tea places in San Francisco Bay Area.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, "Yeet"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Yeet is a full-stack web application similar to Yelp.com. Yeet allows user to search for ramen and boba milk tea places in San Francisco Bay Area."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "project-technologies"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
     className: "project-technologies-list"
@@ -647,17 +657,21 @@ var Projects = function Projects() {
     href: "https://yeet-fullstack.herokuapp.com/"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
     className: "material-icons"
-  }, "exit_to_app")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "project-second"
+  }, "exit_to_app"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "project-second",
+    id: "single-project"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "project-pic"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "/assets/images/stack_bricks.jpg",
+    alt: ""
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "project-description  right-description"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "project-header"
   }, "Featured Project"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "project-title"
-  }, "Stack Bricks"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "project-pic"
-  }, "Project Pic Here"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "project-description"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Stack Bricks is a JavaScript game inspired by the classic game Tetris.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, "Stack Bricks"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Stack Bricks is a JavaScript game inspired by the classic game Tetris."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "project-technologies"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
     className: "project-technologies-list"
@@ -669,17 +683,21 @@ var Projects = function Projects() {
     href: "https://tokyoanime.github.io/stack_bricks/"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
     className: "material-icons"
-  }, "exit_to_app")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "project-third"
+  }, "exit_to_app"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "project-third",
+    id: "single-project"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "project-pic"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "/assets/images/wirr.jpg",
+    alt: ""
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "project-description  right-description"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "project-header"
   }, "Featured Project"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "project-title"
-  }, "WiRR (Wikipedia Reliability Rater)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "project-pic"
-  }, "Project Pic Here"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "project-description"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "WiRR is an application to help determine the reliability of a given Wikipedia article. The reliability of the article is determined by our custom made reliability index. The reliability index is determined mainly by citations.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, "WiRR (Wikipedia Reliability Rater)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "WiRR is an application to help determine the reliability of a given Wikipedia article. The reliability of the article is determined by our custom made reliability index. The reliability index is determined mainly by citations."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "project-technologies"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
     className: "project-technologies-list"
@@ -691,7 +709,7 @@ var Projects = function Projects() {
     href: "http://www.wikipediarr.com/"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
     className: "material-icons"
-  }, "exit_to_app"))))));
+  }, "exit_to_app")))))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Projects);

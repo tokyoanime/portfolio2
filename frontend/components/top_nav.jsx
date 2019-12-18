@@ -25,6 +25,7 @@ export default class TopNav extends React.Component {
             </ol>
               <a 
                 href="/assets/pdf/lwin_ye_resume.pdf"
+                className="btn-link"
                 target="_blank"
                 rel="noopener noreferrer">
               <div className="top-nav-resume btn">
